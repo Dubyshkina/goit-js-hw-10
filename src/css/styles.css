@@ -18,3 +18,53 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.country-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.country-title {
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.country-title:not(:last-child) {
+  margin-bottom: 10px;
+}
+.flag-icon {
+  height: auto;
+  padding-right: 16px;
+}
+.card-field {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.card-icon {
+  height: auto;
+}
+.card-title {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0;
+}
+.card-descr {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.descr-title {
+  font-weight: 500;
+  margin: 0;
+}
+.descr-info {
+  font-size: 16px;
+  font-weight: 400;
+}
